@@ -1,205 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ur">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Maa Ki Mehak</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-
-<style>
-body {
-    margin:0;
-    font-family:'Poppins', sans-serif;
-    background:#111;
-    color:#fff;
-}
-
-header {
-    background:#000;
-    padding:20px;
-    text-align:center;
-    border-bottom:1px solid #333;
-}
-
-header h1 {
-    color:#f4b400;
-    margin:0;
-}
-
-nav {
-    text-align:center;
-    padding:10px;
-    background:#1a1a1a;
-}
-
-nav a {
-    color:#fff;
-    margin:0 15px;
-    text-decoration:none;
-}
-
-.hero {
-    background:url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') center/cover;
-    padding:120px 20px;
-    text-align:center;
-}
-
-.hero h2 {
-    font-size:48px;
-}
-
-.btn {
-    background:#f4b400;
-    color:#000;
-    padding:12px 25px;
-    border:none;
-    cursor:pointer;
-    font-weight:bold;
-    margin-top:10px;
-}
-
-section {
-    padding:50px 20px;
-    max-width:1100px;
-    margin:auto;
-}
-
-.menu-item {
-    background:#1c1c1c;
-    padding:20px;
-    margin:10px 0;
-    border-radius:10px;
-    display:flex;
-    justify-content:space-between;
-}
-
-.gallery {
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:10px;
-}
-
-.gallery img {
-    width:100%;
-    border-radius:10px;
-}
-
-.order-box {
-    background:#222;
-    padding:20px;
-    border-radius:10px;
-}
-
-input, select {
-    width:100%;
-    padding:10px;
-    margin:10px 0;
-    border:none;
-}
-
-footer {
-    text-align:center;
-    padding:20px;
-    background:#000;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maa Ki Mehak - Official Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-<header>
-    <h1>Maa Ki Mehak</h1>
-    <p>Mother’s Aroma • Taste of Home</p>
-</header>
+    <header>
+        <div class="container">
+            <h1>MAA KI MEHAK</h1>
+            <p class="tagline">Mother's Aroma - Authentic Asian Taste</p>
+        </div>
+    </header>
 
-<nav>
-    <a href="#menu">Menu</a>
-    <a href="#order">Order</a>
-    <a href="#gallery">Gallery</a>
-</nav>
+    <section class="menu-section">
+        <div class="container">
+            <h2 class="section-title">Our Special Menu - ہمارا مینیو</h2>
+            
+            <div class="menu-grid">
+                <!-- Main Dishes -->
+                <div class="menu-item">
+                    <span class="item-name">Chicken Karahi (Half) چکن کڑاہی</span>
+                    <span class="item-price">£9.53</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Chicken Karahi (Full) چکن کڑاہی</span>
+                    <span class="item-price">£17.00</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Chicken Biryani (Full) چکن بریانی</span>
+                    <span class="item-price">£14.99</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Kabuli Pulao (Full) کابولی پلاؤ</span>
+                    <span class="item-price">£18.99</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Chana Pulao (Full) چنا پلاؤ</span>
+                    <span class="item-price">£12.00</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Vegetable Pulao (Full) سبزی پلاؤ</span>
+                    <span class="item-price">£13.00</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Special Dal (Full) دال تڑکا</span>
+                    <span class="item-price">£10.00</span>
+                </div>
 
-<div class="hero">
-    <h2>Authentic Homemade Food</h2>
-    <button class="btn" onclick="orderNow()">Order on WhatsApp</button>
-</div>
+                <!-- Snacks & Fast Food -->
+                <div class="menu-item">
+                    <span class="item-name">Anda Shami Burger انڈہ شامی برگر</span>
+                    <span class="item-price">£4.50</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Chicken Pakora چکن پکوڑہ</span>
+                    <span class="item-price">£5.00</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Masala Fries مصالحہ چپس</span>
+                    <span class="item-price">£2.99</span>
+                </div>
 
-<section id="menu">
-<h2>Our Menu</h2>
+                <!-- Sweets -->
+                <div class="menu-item">
+                    <span class="item-name">Sooji Ka Halwa سوجی کا حلوہ</span>
+                    <span class="item-price">£3.50</span>
+                </div>
+                <div class="menu-item">
+                    <span class="item-name">Kheer / Ras Malai کھیر یا رس ملائی</span>
+                    <span class="item-price">£4.50</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div class="menu-item">
-    <span>Chicken Biryani</span>
-    <span>£8.99</span>
-</div>
+    <section class="info-grid">
+        <div class="container grid">
+            <div class="card">
+                <h3>Contact & Location</h3>
+                <p><strong>Phone:</strong> 07860 515963</p>
+                <p><strong>Opening Status:</strong> Opening October 2025</p>
+                <p><strong>Service:</strong> Delivery & Takeout Only</p>
+            </div>
+        </div>
+    </section>
 
-<div class="menu-item">
-    <span>Beef Karahi</span>
-    <span>£10.99</span>
-</div>
-
-<div class="menu-item">
-    <span>Daal Chawal</span>
-    <span>£6.99</span>
-</div>
-
-<div class="menu-item">
-    <span>Chapati (2)</span>
-    <span>£1.50</span>
-</div>
-
-</section>
-
-<section id="order">
-<h2>Place Order</h2>
-
-<div class="order-box">
-<input type="text" id="name" placeholder="Your Name">
-<input type="text" id="phone" placeholder="Phone Number">
-
-<select id="item">
-    <option>Chicken Biryani</option>
-    <option>Beef Karahi</option>
-    <option>Daal Chawal</option>
-</select>
-
-<input type="number" id="qty" placeholder="Quantity">
-
-<button class="btn" onclick="sendOrder()">Submit Order</button>
-</div>
-
-</section>
-
-<section id="gallery">
-<h2>Food Gallery</h2>
-
-<div class="gallery">
-<img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398">
-<img src="https://images.unsplash.com/photo-1604908176997-431a8fd4c5d1">
-<img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c">
-</div>
-
-</section>
-
-<footer>
-<p>© 2025 Maa Ki Mehak</p>
-</footer>
-
-<script>
-function orderNow() {
-    window.open("https://wa.me/447860515963");
-}
-
-function sendOrder() {
-    let name = document.getElementById("name").value;
-    let phone = document.getElementById("phone").value;
-    let item = document.getElementById("item").value;
-    let qty = document.getElementById("qty").value;
-
-    let msg = `Order from Maa Ki Mehak:%0AName: ${name}%0APhone: ${phone}%0AItem: ${item}%0AQuantity: ${qty}`;
-
-    window.open(`https://wa.me/447860515963?text=${msg}`);
-}
-</script>
+    <footer>
+        <p>&copy; 2024 Maa Ki Mehak. Created with Love.</p>
+    </footer>
 
 </body>
 </html>
